@@ -20,6 +20,12 @@ const INITIAL_EXPENSES = [
     title: "Smartphone",
     amount: 500,
   },
+  {
+    id: "4e",
+    date: new Date(2022, 1, 13),
+    title: "T-shirt",
+    amount: 50,
+  },
 ];
 function App() {
   const [expenseItems, setExpenseItems] = useState(INITIAL_EXPENSES);
